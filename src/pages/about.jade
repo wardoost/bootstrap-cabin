@@ -1,0 +1,40 @@
+extends ../layouts/base
+
+block link
+	-var selected = 'About';
+block head
+	title About Me
+block content
+	.jumbotron
+		.container
+			h1 Jumbotron
+			#accordion.panel-group
+				.panel.panel-default
+					.panel-heading
+						h4.panel-title
+							a(href="#collapseOne", data-toggle="collapse", data-parent="#accordion")
+								i.fa.fa-camera-retro.fa-lg.fa-fw
+								"About Me #1"
+					#collapseOne.panel-collapse.collapse
+						.panel-body
+							p This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+							p: a.btn.btn-primary.btn-lg(role="button") Learn more &raquo;
+				.panel.panel-default
+					.panel-heading
+						h4.panel-title
+							a(href="#collapseTwo", data-toggle="collapse", data-parent="#accordion")
+								i.fa.fa-cog.fa-spin.fa-lg.fa-fw
+								"About Me #2"
+					#collapseTwo.panel-collapse.collapse.in
+						.panel-body
+							p: img.img-responsive(src="img/posts/example.jpg", alt="Responsive image")
+				.panel.panel-default
+					.panel-heading
+						h4.panel-title
+							a(href="#collapseThree", data-toggle="collapse", data-parent="#accordion")
+								i.fa.fa-paper-plane.fa-lg.fa-fw
+								"About Me #3"
+					#collapseThree.panel-collapse.collapse
+						.panel-body
+							p This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+							p: a.btn.btn-warning.btn-lg(role="button") Learn more &raquo;

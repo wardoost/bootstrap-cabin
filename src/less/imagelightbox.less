@@ -1,0 +1,83 @@
+// Lightbox styles
+#imagelightbox {
+	position: fixed;
+	z-index: 10000;
+}
+
+// Loading
+#imagelightbox-loading
+{
+	width: @font-size-base * 2;
+	height: @font-size-base * 2;
+	position: fixed;
+	z-index: 10003;
+	top: 50%;
+	left: 50%;
+	margin-top: -@font-size-base;
+	margin-left: -@font-size-base;
+	padding: ((@font-size-base * 2 - @font-size-base * 1.25) / 2) ((@font-size-base * 2 - @font-size-base) / 2);
+	background-color: @gray-lighter;
+	border-radius: 50%;
+	text-align: center;
+}
+
+// Overlay
+#imagelightbox-overlay
+{
+	background-color: fade(@navbar-inverse-bg, 95%);
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+// Navigation 
+#imagelightbox-nav
+{
+	position: fixed;
+	z-index: 10001;
+	left: 50%;
+	bottom: @padding-base-horizontal;
+	.translate(-50%; 0);
+	a{
+		width: 1.4em;
+		height: 1.4em;
+		border: 1px solid @gray-lighter;
+		display: inline-block;
+		margin: 0 @padding-small-vertical;
+		border-radius: 50%;
+		&.active{
+			background-color: @gray-lighter;
+		}
+	}
+}
+
+// Create fade in animation
+#imagelightbox-loading, #imagelightbox-overlay, #imagelightbox-nav{
+	-webkit-animation: fade-in .25s linear;
+	-moz-animation: fade-in .25s linear;
+	-o-animation: fade-in .25s linear;
+	animation: fade-in .25s linear;
+}
+@-webkit-keyframes fade-in
+{
+	from	{ opacity: 0; }
+	to		{ opacity: 1; }
+}
+@-moz-keyframes fade-in
+{
+	from	{ opacity: 0; }
+	to		{ opacity: 1; }
+}
+@-o-keyframes fade-in
+{
+	from	{ opacity: 0; }
+	to		{ opacity: 1; }
+}
+@keyframes fade-in
+{
+	from	{ opacity: 0; }
+	to		{ opacity: 1; }
+}

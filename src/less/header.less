@@ -1,0 +1,21 @@
+@media @mobile{
+	.navbar-inverse{
+		background-color: transparent;
+		.navbar-header{
+			.clearfix();
+			background-color: @navbar-inverse-bg;
+		}
+		.navbar-collapse{
+			background-color: fade(@navbar-inverse-bg, 97%);
+			.nav > li.active > a{
+				background-color: fade(@navbar-inverse-link-active-bg, 40%);
+			}
+		}
+	}
+}
+
+html.no-touch{
+	.nav > li > a{
+		.transition(all 200ms ease);
+	}
+}

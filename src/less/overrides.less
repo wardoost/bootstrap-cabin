@@ -1,0 +1,157 @@
+// *************************************************************
+// General overrides
+// *************************************************************
+
+html
+{
+	/* killing 300ms touch delay in IE */
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+body {
+	padding-top: 50px;
+	background-color: @navbar-inverse-bg;
+	> #content{
+		background-color: @body-bg;
+		padding-top: @padding-small-horizontal;
+		padding-bottom: @padding-small-horizontal;
+		@media @tablet{
+			padding-top: @padding-large-horizontal;
+			padding-bottom: @padding-large-horizontal;
+		}
+		> .container > .row{
+			.clearfix();
+		}
+	}
+}
+
+// *************************************************************
+// General components
+// *************************************************************
+
+// Style that stretches the object to the edges on mobile
+.mobileFullWidth{
+  @media @mobile{
+    margin-left: (-@grid-gutter-width / 2);
+    margin-right: (-@grid-gutter-width / 2);
+  }
+}
+
+// Styles for images that can be opened
+.openImgContainer{
+	position: relative;
+	.openImg{
+		position: absolute;
+		font-size: @font-size-large;
+		color: @gray-lighter;
+		bottom: @padding-small-vertical;
+		left: 50%;
+		margin-left: -9px;
+	}
+}
+
+// Bootstrap jumbotron
+.jumbotron{
+	padding: @jumbotron-padding / 3;
+	@media @tablet{
+		padding: @jumbotron-padding / 2;	
+	}
+	@media @normal{
+		padding: @jumbotron-padding;
+	}
+}
+
+// Social bar modifications
+.social{
+	text-align: center;
+	> label{
+		margin-right: @padding-base-vertical;
+	}
+}
+
+// Pagination
+.pagination{
+	width: 100%;
+	a{
+		&.older{
+			float: left;
+		}
+		&.newer{
+			float: right;
+		}
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+
+// *************************************************************
+// 3D links
+// *************************************************************
+
+html.no-touch.js{
+  .link3D {
+    display: inline-block; /* give it a layout */    
+    overflow: hidden;
+    vertical-align: top; /* just to be sure */
+
+    .perspective(500px); /* The smaller the number the closer you look at this  element */
+    .perspective-origin(50% 50%); /* Relative position of the POV, Default is 50% 50% so not necessary */
+
+    &:hover, &:focus {
+      background: none;
+      text-shadow: none;
+
+      span {
+        background: fade(#000, 30%);
+        border-radius: @border-radius-small;
+        .translate3drotateX(0px; 0px; -45px; 90deg);
+      }
+    }
+
+    span {
+      display: block;
+      position: relative;
+      padding: 0 2px;
+
+      .transition(all 300ms ease); /* duration */
+      .transform-origin(50% 0%); /* posx posy */
+      .transform-style(preserve-3d);
+
+      &:after {
+        content: attr(data-title);
+        display: block; /* maybe its not necessary */
+        position: absolute; /* position over  */
+        left: 0;
+        top: 0;
+        padding: 0 2px; /* nothing functional, just right, left space */
+
+        color: @body-bg;
+        background: @brand-primary;
+        border-radius: @border-radius-small;
+
+        .transform-origin(50% 0%); /* posx posy */
+        .translate3drotateX(0px; 105%; 0px; -90deg); /* translate3d => move up element to the top, rotateX => rotate till hidden */
+      }
+    }
+  }
+
+	.post-head a {
+    .clearfix();
+  }
+}
+.translate3drotateX(@x; @y; @z; @degrees){
+  -webkit-transform: translate3d( @x, @y, @z ) rotateX( @degrees );
+  -moz-transform: translate3d( @x, @y, @z ) rotateX( @degrees );
+  -ms-transform: translate3d( @x, @y, @z ) rotateX( @degrees );
+  transform: translate3d( @x, @y, @z ) rotateX( @degrees );
+}
+.transform-style(@transform-style) {
+  -webkit-transform-style: @transform-style;
+  -moz-transform-style: @transform-style;
+  transform-style: @transform-style;
+}
+
+// End 3D links
+// *************************************************************

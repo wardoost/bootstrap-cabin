@@ -1,0 +1,13 @@
+extends ../layouts/base
+
+block link
+	-var selected = 'Archive';
+block head
+	title Archives
+block content
+	.container
+		h1 Archive
+		p This is an overview of all the posts titles and dates
+		.well
+			each post in posts
+				mixin postHead(post)

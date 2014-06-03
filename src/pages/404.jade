@@ -1,0 +1,16 @@
+extends ../layouts/base
+
+block link
+	-var selected = 'Error';
+block head
+	title Page not Found
+block content
+	.container
+		h1 Page not Found
+		p Sorry, but the page you were trying to view does not exist.
+		p It looks like this was the result of either:
+		ul
+			li a mistyped address
+			li an out-of-date link
+
+block footer

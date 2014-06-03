@@ -1,0 +1,33 @@
+body > footer{
+	color: @navbar-inverse-color;
+	font-size: @font-size-small;
+	.footer-menu{
+		background-color: @gray-dark;
+		overflow: hidden;
+		padding-top: @padding-xl-horizontal;
+		padding-bottom: @padding-xl-horizontal;
+		@media @tablet{
+			.border-bottom-radius(@border-radius-small);
+		}
+		.row{
+			.clearfix();
+			.nav-pills > li {
+				> a{
+					color: @gray-lighter;
+					&:hover{
+						color: @gray-darker;
+					}
+				}
+				&.active > a{
+					&:hover{
+						color: @gray-lighter;
+					}
+				}
+			}
+		}
+	}
+	.footer-txt{
+		margin-top: @padding-large-horizontal;
+		margin-bottom: @padding-large-horizontal;
+	}
+}

@@ -1,0 +1,31 @@
+// Modifications to the content block per page
+#content{
+	// Page home
+	&.home{
+
+	}
+	// Page about
+	&.about{
+		padding-top: 0;
+	}
+}
+
+// -------------
+// **** NEW ****
+// -------------
+
+// Make images in posts responsive
+.post-body.markdown{
+  img{
+    width: 100%;
+    //margin-left: (-@grid-gutter-width / 2);
+    //margin-right: (-@grid-gutter-width / 2);
+    @media @normal{
+      &.portrait{
+        width: auto;
+        .img-responsive();
+        .center-block();
+      }
+    }
+  }
+}
