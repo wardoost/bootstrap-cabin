@@ -1,18 +1,26 @@
-#BOOTSTRAP CABIN GRUNTED
+#Bootstrap Cabin Installation
 *****
 
-1. Open terminal, cd to your project folder and install Grunt
-	`npm install -g grunt-cli`
+Open terminal, cd to your project folder and install [Grunt](http://gruntjs.com/)
+```
+npm install -g grunt-cli
+```
 
-1. Install Graphicsmagick for responsive images
-	`brew install graphicsmagick`
-	You need Homebrew to install Graphicsmagick
-	`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+Install [Graphicsmagick](http://www.graphicsmagick.org/) for responsive images
+```
+brew install graphicsmagick
+```
+You need [Homebrew](http://brew.sh/) to install Graphicsmagick. Use the following command to install Homebrew
+```
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+```
 
-1. Install Grunt Dependencies
-	`npm install`
+Install Grunt Dependencies
+```
+npm install
+```
 
-1. Edit Gruntfile.js and the source files to your needs
-
-1. Run grunt
-	`grunt`
+Edit Gruntfile.js and the source files to your needs and run grunt
+```
+grunt
+```
