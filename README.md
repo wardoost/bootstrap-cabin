@@ -1,4 +1,4 @@
-##BOOTSTRAP CABIN GRUNTED
+#BOOTSTRAP CABIN GRUNTED
 *****
 
 1. Open terminal, cd to your project folder and install Grunt
