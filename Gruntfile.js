@@ -313,7 +313,7 @@ module.exports = function (grunt) {
     'pages',
     'favicons',
     'relativeRoot',
-    //'htmlmin',
+    'htmlmin',
     'less',
     'concat:css',
     'cssmin',

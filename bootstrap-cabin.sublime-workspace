@@ -1,0 +1,1369 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color:   (property)"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"add",
+				"addClass  (function)"
+			],
+			[
+				"rotate",
+				"rotateX"
+			],
+			[
+				"has",
+				"hasClass  (function)"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"backgorund",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"bs3-",
+				"bs3-col	bs3-col"
+			],
+			[
+				"build",
+				"buildcopy"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"grd",
+				"grid-gutter-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"overflo",
+				"overflow-x"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"grid",
+				"grid-gutter-width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"body",
+				"body-bg"
+			],
+			[
+				"paddin",
+				"padding-small-horizontal"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"border-bott",
+				"border-bottom-width"
+			],
+			[
+				"border-w",
+				"border-left-width"
+			],
+			[
+				"gird",
+				"grid-gutter-width"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"font-weig",
+				"font-weight-bold"
+			],
+			[
+				"grid-",
+				"grid-gutter-width"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"font-size",
+				"font-size-base"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"brand-",
+				"brand-primary"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"bacg",
+				"background-size"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"brnad",
+				"brand-primary"
+			],
+			[
+				"brand",
+				"brand-tertiary"
+			],
+			[
+				"pane",
+				"panel-body"
+			],
+			[
+				"panel-",
+				"panel-heading"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"brnad-",
+				"brand-primary"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"padding-base",
+				"padding-base-general"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"border-ra",
+				"border-radius-small"
+			],
+			[
+				"pad",
+				"padding-base-general"
+			],
+			[
+				"grou-",
+				"group-right"
+			],
+			[
+				"tabe",
+				"table-cell"
+			],
+			[
+				"Brand",
+				"brand-primary"
+			],
+			[
+				"firs",
+				"first"
+			],
+			[
+				"content",
+				"contentWell"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"con",
+				"contentbgstretch"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mrg",
+				"margin-top"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"table-",
+				"table-cell"
+			],
+			[
+				"padding-base-",
+				"padding-base-small"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"background-t",
+				"background-position"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"backgou",
+				"background-position"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"bg-color",
+				"border-right-color"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mouseY",
+				"mouseYPos"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ease",
+				"easeInCubic"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"animEa",
+				"animEasing"
+			],
+			[
+				"animE",
+				"animate"
+			],
+			[
+				"bg-",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 8099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/sublime-grunt-build/grunt.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"github",
+				"GitHub: Open Gist in Editor"
+			],
+			[
+				"gith",
+				"GitHub: Private Gist from Selection"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"string",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packge",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"package sync",
+				"Package Syncing: Push Settings"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package Syncing: En",
+				"Package Syncing: Define Sync Folder"
+			],
+			[
+				"Grunt",
+				"Grunt"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"snippet",
+				"Snippet: bs3-col-8"
+			],
+			[
+				"list",
+				"List stylesheet variables"
+			],
+			[
+				"packet",
+				"Package Control: Install Package"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"enc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"en",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"end",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 127.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Ward/Documents/Repositories/Bootstrap Cabin/README.text",
+		"/Users/Ward/.gitignore_global",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Nederland/2361 - EdmWk24 Wehkamp/_dev/2361 - EdmWk24 Wehkamp/index.html",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/Ward/Desktop/Bootstrap Cabin/.gitignore",
+		"/Users/Ward/Desktop/Bootstrap Cabin/Bootstrap Cabin.sublime-project",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (OSX).sublime-keymap",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/Package Syncing.sublime-settings",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/SublimeGrunt.sublime-settings",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Nederland/2361 - EdmWk24 Wehkamp/_dev/2361 - EdmWk24 Wehkamp.txt",
+		"/Users/Ward/Desktop/Bootstrap Cabin/Gruntfile.js",
+		"/Users/Ward/Desktop/test.sublime-project",
+		"/Users/Ward/Desktop/Bootstrap Cabin/Bootstrap Cabin.sublime-workspace",
+		"/Users/Ward/Desktop/Bootstrap Cabin/package.json",
+		"/Users/Ward/Desktop/Bootstrap Cabin/.ftppass",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/about.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/404.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/layouts/base.jade",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/js/retina.js",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/*.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/archive.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/robots.txt",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/sitemap.xml",
+		"/Users/Ward/Desktop/Bootstrap Cabin/node_modules/grunt-sitemap/src/sitemap.coffee",
+		"/Users/Ward/Downloads/sitemap.xml",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/2348_Pampers_EDM Amazon.txt",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/2348_Pampers_EDM Amazon/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/sitemap.xml",
+		"/Users/Ward/Desktop/Bootstrap Cabin/node_modules/grunt-robots-txt/tasks/robotstxt.js",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/index.html",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/index.txt",
+		"/Users/Ward/Documents/Projecten/_Templates/EDM/TEMPL_Pampers/NLD/.project",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/.gitignore",
+		"/Users/Ward/Documents/Projecten/PG/Pampers/2175 Pampers JAS14 Drop | Online/_dev/Responsive EDMs/_dev/Responsive/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/pages/index.jade",
+		"/Users/Ward/Desktop/Bootstrap Cabin/node_modules/grunt-contrib-watch/node_modules/gaze/test/safewrite_test.js",
+		"/Users/Ward/Desktop/Bootstrap Cabin/posts/samplePost.md",
+		"/Users/Ward/Desktop/Responsive EDM/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/pages/archive.jade",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/img/amazon.jpg",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/Responsive/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/js/main.js",
+		"/Users/Ward/Downloads/jQuery-Retina-master/dist/jquery.retina.js",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/js/libs/imagelightbox.js",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/less/header.less",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/less/content.less",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/less/overrides.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/layouts/base.jade",
+		"/Users/Ward/Downloads/CreativeLinkEffects/css/demo.css",
+		"/Users/Ward/Downloads/CreativeLinkEffects/css/component.css",
+		"/Users/Ward/Downloads/CreativeLinkEffects/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/js/exist.js",
+		"/Users/Ward/Desktop/Bootstrap Cabin/src/js/exists.js",
+		"/Users/Ward/Desktop/Bootstrap Cabin/out/posts/markdown-test/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/page/1/index.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/dist/**/*.html",
+		"/Users/Ward/Desktop/Bootstrap Cabin/build/index.html",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/Gruntfile.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/main.js",
+		"/Users/Ward/Desktop/Responsive/index.html",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/posts/samplePost3.md",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/overrides.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/content.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/pages/index.jade",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/index.html",
+		"/Users/Ward/Desktop/imagelightbox old.js",
+		"/Users/Ward/Documents/Projecten/PG/Pampers/2342 - Pampers EDM CrazyDays/_dev/BEFR/2342_BEFR_index.html",
+		"/Users/Ward/Documents/Projecten/PG/Pampers/2342 - Pampers EDM CrazyDays/_dev/BENL/2342_BENL_index.html",
+		"/Users/Ward/Documents/Projecten/PG/Pampers/2342 - Pampers EDM CrazyDays/_dev/BENL/2342_BENL_index.txt",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/libs/imagelightbox.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/style.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/libs/jquery.retina.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/posts/samplePost2.md",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/libs/bootstrap/mixins.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/header.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/pages/archive.jade",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/pages/about.jade",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/imagelightbox.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/archive.html",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/libs/retina.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/package.json",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/libs/eachWithCallback.js",
+		"/Users/Ward/Dropbox/Tools, tricks & templates/JS:jQuery/jquery.makeItRetina.min.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/libs/eachWithCallback",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/imagelightbox.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/footer.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/variables.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/layouts/post.jade",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/pages/404.jade",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/posts/samplePost.md",
+		"/Users/Ward/Desktop/bootstrap_cabin_fork2/src/layouts/base.jade",
+		"/Users/Ward/Desktop/bootstrap_cabin_fork2/Gruntfile.js",
+		"/Users/Ward/Desktop/bootstrap_cabin_fork2/src/less/overrides.less",
+		"/Users/Ward/Desktop/bootstrap_cabin_fork2/src/less/footer.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/libs/bootstrap/bootstrap.less",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/about.jade",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/js/libs/ekko-lightbox.js",
+		"/Users/Ward/Downloads/lightbox-master/examples/index.html",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/libs/fontawesome/mixins.less",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/css/libs/ekko-lightbox.css",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/js/script.min.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/css/style.min.css",
+		"/Users/Ward/Documents/Projecten/_Drupal/Drupal 8 - alpha10/core/scripts/transliteration_data.php.txt",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/Gruntfile.js",
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Grunted/source/index.html",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/base.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/less/overrides.less",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_social.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/post.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/404.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/archives.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/index.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/projects.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/dist/index.html",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/projects.ejs",
+		"/Users/Ward/Desktop/Cabin/jadeg/src/layouts/base.jade",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/.gitignore",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_header.ejs",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/archives.ejs",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/index.ejs",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_footer.ejs",
+		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_postHead.ejs"
+	],
+	"find":
+	{
+		"height": 101.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"jumpVer"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"&eacute;\nP\n&#x119;\n\nA&AElig;",
+			"img/",
+			"€",
+			"®",
+			"alt",
+			"}\n",
+			"bce0de",
+			"600",
+			"586",
+			"htmlmin",
+			"}\n",
+			"robotstxt",
+			"bfiles",
+			"robots",
+			"copy",
+			"return",
+			"alt",
+			"Pampers",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"/*",
+			"img/",
+			"ebf9f9",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"tran",
+			"opa",
+			"op",
+			"e6f7f7",
+			"td",
+			"header-cta-sides",
+			"spacing",
+			"valign",
+			"align=",
+			"header-cta",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"e6f7f7",
+			"img/",
+			"src=",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"e:1px; line-height:1px; mso-line-height-rule: ",
+			"img/",
+			"href",
+			"banner",
+			"header-message2",
+			"desktop-sp",
+			"mobilespacer-sm",
+			"desktop-spacer",
+			"header-message2",
+			"preheader",
+			"mobilespacer",
+			"<!-- spacing -->",
+			"<img",
+			"st-",
+			"image",
+			"14px",
+			"st-sortable",
+			"top",
+			"bottom",
+			"img",
+			"mobilespacer",
+			"<!-- Spacing -->",
+			"devicewidthmobile",
+			"#bfcbcc",
+			"552",
+			"full",
+			".backgroundTable",
+			".image_fix",
+			"tabletspace",
+			"188",
+			"102",
+			"header-cta-spacer",
+			"desktop-spacer",
+			"desktop",
+			"header-message2",
+			"header-cta",
+			"header-message1",
+			"height=\"21px\"",
+			"21",
+			"                                 \n",
+			"header-plus",
+			"heighdevicewidthmobilet",
+			"spacer-mobile",
+			"mobile",
+			"tabletspacer",
+			"header-packshot",
+			"header-pampers",
+			"pampers",
+			"50%",
+			"header-pampers",
+			"st",
+			"plus",
+			"devicewidth",
+			"message1",
+			"mobilespacer",
+			"header-message1",
+			"header-cta-spacer",
+			"header-cta",
+			"header-plus",
+			"plus",
+			"max-w",
+			"header-cta",
+			"packshot",
+			"header-plus",
+			"pack",
+			"desktop",
+			"F60",
+			"0056F2",
+			"#F60",
+			"header-plus",
+			"header-pl",
+			"pack",
+			"plus",
+			"subheadertitle",
+			"vert",
+			"va",
+			"bgcolor=\"#0056F2\"",
+			"padding",
+			"header-message1",
+			"header-message2",
+			" href",
+			"id=\"backgroundTable\"",
+			"id=\"backgroundTable",
+			"backgroundTable",
+			"600",
+			"data-retina",
+			"selector"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&eacute;\nP\n&#x119;\n\nA&AElig;",
+			"http://www.oink-communicatie.be/Pampers_Nederland/2361/img/",
+			"EUR ",
+			"(R)",
+			"ffffff",
+			"586",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"e6f7f7",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"12px",
+			"#ffffff",
+			"devicewidthtablet",
+			"tabletspacer",
+			"e6f7f7",
+			"class=\"backgroundTable\"",
+			"class=\"id=\"backgroundTable",
+			"572",
+			"http://www.oink-communicatie.be/PG/2175/Responsive/img/",
+			"a",
+			"http://www.oink-communicatie.be/Pampers_Belgie/2342/BEFR/img/",
+			"a",
+			"http://www.oink-communicatie.be/Pampers_Belgie/2342/BENL/img/",
+			"swipeEndX",
+			"href",
+			"fonts/",
+			"src",
+			"csssrc",
+			"css",
+			"dist",
+			"src",
+			"www",
+			"files",
+			"",
+			"Project 2",
+			"source/js/",
+			"www-folder",
+			"",
+			"#00aaa6",
+			"http://www.oink-communicatie.be/Pampers_Nederland/2341/img/",
+			"&#8364;",
+			" ",
+			"51afaf",
+			"",
+			"\"",
+			";\n",
+			"(R)",
+			"http://www.oink-communicatie.be/Pampers_Nederland/2299/img/",
+			"(R)",
+			"http://www.oink-communicatie.be/Pampers_Belgie/2298/BENL/img/",
+			"http://www.oink-communicatie.be/Pampers_Belgie/2298/BEFR/img/",
+			"Pampers<sup>&#174;</sup>",
+			"<sup>&#174;</sup>",
+			"colspan=\"6\"",
+			"f0f2f1",
+			"img/",
+			"http://www.oink-communicatie.be/PG/2175/Responsive/img/",
+			"http://www.oink-communicatie.be/PG/2175/Traditional/img/",
+			"width=\"6\"",
+			"width=\"8\"",
+			"<sup>&#174;</sup>",
+			"#bfcbcc",
+			"<sup>&#174;</sup>",
+			"e6f4f5",
+			"<sup>&#174;</sup>",
+			"http://www.oink-communicatie.be/PG/2306/responsive/img/",
+			"u",
+			"bfcbcc",
+			"600",
+			"Pampers_300x600_fra_80k",
+			"",
+			"http://www.oink-communicatie.be/PG/2306/img/",
+			"",
+			"757575",
+			"onlytablet",
+			"onlynormal",
+			"onlymobile",
+			"arial, sans-serif;",
+			"560",
+			"600",
+			"ffffff",
+			"templates%20imgs",
+			"<span ",
+			"<span",
+			"<span>",
+			"Pampers_300x250_fra_55k",
+			"$('body,html').animate({ scrollTop: 0 });",
+			"<br />",
+			"bce0de",
+			"600",
+			"vertical-align: top",
+			"",
+			"999999",
+			"#999999",
+			"999999",
+			"",
+			"bce0de",
+			"8e8e8e",
+			"600",
+			"",
+			"999999",
+			"600",
+			"#999999",
+			"999999",
+			"colspan=\"6\"",
+			"8e8e8e",
+			"600",
+			"rotate(20)",
+			"@drujax-delay",
+			"//'overflow':'hidden'",
+			"'overflow':'visible'",
+			"//'overflow':'hidden'",
+			"url('../font/gotham-",
+			"Pampers(R)",
+			"http://www.oink-communicatie.be/Pampers/2278/FR/img/",
+			"http://www.oink-communicatie.be/Pampers/2278/img/",
+			"Pampers(R)",
+			"€",
+			"",
+			"Pampers(R)",
+			"Pampers<sup>&#174;</sup>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4549.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 276.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bootstrap-cabin.sublime-project",
+	"replace":
+	{
+		"height": 196.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"f",
+				"~/Documents/Projecten/PG/Pampers/2150 Pampers eMBQ/_dev/Pampers_2150_eMBQ_BE_FR_12maand/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
