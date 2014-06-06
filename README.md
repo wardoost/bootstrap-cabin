@@ -24,3 +24,6 @@ Edit Gruntfile.js and the source files to your needs and run grunt
 ```
 grunt
 ```
+
+## To do
+1. Save the config of the menu in a seperate file. [More info](https://github.com/CabinJS/grunt-pages#data)
