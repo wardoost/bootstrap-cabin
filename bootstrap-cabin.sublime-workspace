@@ -436,18 +436,18 @@
 	"buffers":
 	[
 		{
-			"file": "Gruntfile.js",
+			"file": "/Users/Ward/Desktop/slidetoucher/js/demo.js",
 			"settings":
 			{
-				"buffer_size": 8099,
+				"buffer_size": 703,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
+			"file": "/Users/Ward/Documents/Repositories/iRep Veeva/package.json",
 			"settings":
 			{
-				"buffer_size": 194,
+				"buffer_size": 754,
 				"line_ending": "Unix"
 			}
 		}
@@ -589,13 +589,36 @@
 	},
 	"file_history":
 	[
+		"/Users/Ward/Desktop/smart-4/index.html",
+		"/Users/Ward/Desktop/smart-5/smart-5.html",
+		"/Users/Ward/Desktop/smart-3/smart-3.html",
+		"/Users/Ward/Desktop/smart-5.ctl",
+		"/Users/Ward/Desktop/smart-1/smart-1.html",
+		"/Users/Ward/Desktop/smart-1/css/global.css",
+		"/Users/Ward/Desktop/smart-5/js/disable-scrolling.js",
+		"/Users/Ward/Desktop/smart-1/css/style.css",
+		"/Users/Ward/Documents/Projecten/AstraZeneca/Veeva/Templates/ftp-ctlfile-template.ctl",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/2348_Pampers_EDM Amazon/index.html",
+		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/2348_Pampers_EDM Amazon.txt",
+		"/Users/Ward/Desktop/smart-3/index.html",
+		"/Users/Ward/Documents/Repositories/bootstrap-cabin/Gruntfile.js",
+		"/Users/Ward/Desktop/2.1.0-astma-winter/css/style.css",
+		"/Users/Ward/Desktop/astma-winter/astma-winter.html",
+		"/Users/Ward/Desktop/astma-winter-2/astma-winter-2.html",
+		"/Users/Ward/Desktop/astma-winter-1.ctl",
+		"/Users/Ward/Desktop/smart-1/index.html",
+		"/Users/Ward/Desktop/smart-2/index.html",
+		"/Users/Ward/Desktop/_uren",
+		"/Users/Ward/Documents/Projecten/AstraZeneca/1813 Visual AID Symbicort/_dev/TR Symbicort NL pre-production/html5/azbe-symbicort-nl.publication/css/reference.css",
+		"/Users/Ward/Desktop/astma-winter/css/global.css",
+		"/Users/Ward/Documents/Repositories/bootstrap-cabin/.gitignore",
+		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
 		"/Users/Ward/Documents/Repositories/Bootstrap Cabin/README.text",
 		"/Users/Ward/.gitignore_global",
 		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
 		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Ward/Documents/Projecten/PG/Pampers Nederland/2361 - EdmWk24 Wehkamp/_dev/2361 - EdmWk24 Wehkamp/index.html",
-		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
 		"/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
 		"/Users/Ward/Desktop/Bootstrap Cabin/.gitignore",
 		"/Users/Ward/Desktop/Bootstrap Cabin/Bootstrap Cabin.sublime-project",
@@ -620,8 +643,6 @@
 		"/Users/Ward/Desktop/Bootstrap Cabin/dist/sitemap.xml",
 		"/Users/Ward/Desktop/Bootstrap Cabin/node_modules/grunt-sitemap/src/sitemap.coffee",
 		"/Users/Ward/Downloads/sitemap.xml",
-		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/2348_Pampers_EDM Amazon.txt",
-		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/2348_Pampers_EDM Amazon/index.html",
 		"/Users/Ward/Desktop/Bootstrap Cabin/sitemap.xml",
 		"/Users/Ward/Desktop/Bootstrap Cabin/node_modules/grunt-robots-txt/tasks/robotstxt.js",
 		"/Users/Ward/Documents/Projecten/PG/Pampers Frankrijk/2348 - Pampers EDM Amazon/_dev/index.html",
@@ -695,32 +716,11 @@
 		"/Users/Ward/Downloads/lightbox-master/examples/index.html",
 		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/less/libs/fontawesome/mixins.less",
 		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/src/css/libs/ekko-lightbox.css",
-		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/js/script.min.js",
-		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/css/style.min.css",
-		"/Users/Ward/Documents/Projecten/_Drupal/Drupal 8 - alpha10/core/scripts/transliteration_data.php.txt",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/Gruntfile.js",
-		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Grunted/source/index.html",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/base.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/less/overrides.less",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_social.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/post.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/404.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/archives.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/index.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/projects.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/dist/index.html",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/projects.ejs",
-		"/Users/Ward/Desktop/Cabin/jadeg/src/layouts/base.jade",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/.gitignore",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_header.ejs",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/archives.ejs",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/pages/index.ejs",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_footer.ejs",
-		"/Users/Ward/Desktop/Cabin/bootstrap_cabin/src/layouts/_postHead.ejs"
+		"/Users/Ward/Documents/Projecten/_Templates/Bootstrap Cabin/dist/js/script.min.js"
 	],
 	"find":
 	{
-		"height": 101.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -735,6 +735,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
+			"img/",
+			"href",
 			"&eacute;\nP\n&#x119;\n\nA&AElig;",
 			"img/",
 			"€",
@@ -858,11 +862,7 @@
 			"header-message2",
 			" href",
 			"id=\"backgroundTable\"",
-			"id=\"backgroundTable",
-			"backgroundTable",
-			"600",
-			"data-retina",
-			"selector"
+			"id=\"backgroundTable"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -870,6 +870,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"img/",
+			"http://www.oink-communicatie.be/Pampers_Frankrijk/2348/img/",
 			"&eacute;\nP\n&#x119;\n\nA&AElig;",
 			"http://www.oink-communicatie.be/Pampers_Nederland/2361/img/",
 			"EUR ",
@@ -995,9 +997,7 @@
 			"http://www.oink-communicatie.be/Pampers/2278/img/",
 			"Pampers(R)",
 			"€",
-			"",
-			"Pampers(R)",
-			"Pampers<sup>&#174;</sup>"
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1008,267 +1008,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
+					"file": "/Users/Ward/Desktop/slidetoucher/js/demo.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 8099,
+						"buffer_size": 703,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								125
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4549.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/Ward/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								191,
-								191
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1276,6 +1038,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Ward/Documents/Repositories/iRep Veeva/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1323,7 +1115,7 @@
 	"project": "bootstrap-cabin.sublime-project",
 	"replace":
 	{
-		"height": 196.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

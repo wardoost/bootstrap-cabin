@@ -24,6 +24,7 @@ module.exports = function (grunt) {
           pageSrc: 'src/pages',
           data: {
             baseUrl: '/',
+            year: grunt.template.today('yyyy'),
             menu: [
               {name: 'Home', link: '',icon:'fa-home'},
               {name: 'About', link: 'about.html',icon:'fa-user'},
@@ -287,7 +288,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           hostname: '0.0.0.0',
-          port: 8888,
+          port: 8000,
           base: '',
           livereload: true
         }
@@ -308,29 +309,39 @@ module.exports = function (grunt) {
     },
   });
 
-  grunt.registerTask('build', [
-    'clean:dist',
+  grunt.registerTask('html', [
     'pages',
     'favicons',
     'relativeRoot',
-    'htmlmin',
+    'htmlmin'
+  ]);
+
+  grunt.registerTask('css', [
     'less',
     'concat:css',
-    'cssmin',
+    'cssmin'
+  ]);
+
+  grunt.registerTask('js', [
     'jshint',
-    'uglify',
+    'uglify'
+  ]);
+
+  grunt.registerTask('build', [
+    'clean:dist',
+    'html',
+    'css',
+    'js',
     'responsive_images',
     'sitemap',
     'robotstxt',
     'copy'
   ]);
 
-  
-
   grunt.registerTask('server', [
     'build',
     'connect',
-    //'open',
+    'open',
     'watch'
   ]);
 
