@@ -275,7 +275,7 @@ module.exports = function (grunt) {
         tasks: ['jshint', 'uglify:js', 'clean:js']
       },
       images: {
-        files: ['img/**/*.{png,jpg,jpeg,gif'],
+        files: ['img/**/*.{png,jpg,jpeg,gif}'],
         tasks: ['responsive_images', 'imagemin']
       },
       files: {
@@ -307,47 +307,25 @@ module.exports = function (grunt) {
       js: ["dist/js/**/*.js", "!dist/js/*.min.js"],
       css: ["dist/css/**/*.css", "!dist/css/*.min.css"]
     },
+
+    // Parallel tasks
+    concurrent: {
+      target1: ['html', 'css', 'js', 'responsive_images'],
+      target2: ['sitemap', 'robotstxt', 'copy']
+    },
   });
-
-  grunt.registerTask('html', [
-    'pages',
-    'favicons',
-    'relativeRoot',
-    'htmlmin'
-  ]);
-
-  grunt.registerTask('css', [
-    'less',
-    'concat:css',
-    'cssmin'
-  ]);
-
-  grunt.registerTask('js', [
-    'jshint',
-    'uglify'
-  ]);
-
-  grunt.registerTask('build', [
-    'clean:dist',
-    'html',
-    'css',
-    'js',
-    'responsive_images',
-    'sitemap',
-    'robotstxt',
-    'copy'
-  ]);
-
-  grunt.registerTask('server', [
+  
+  // Group sequenced tasks
+  grunt.registerTask('html', ['pages', 'favicons', 'relativeRoot','htmlmin']);
+  grunt.registerTask('css', ['less', 'concat:css', 'cssmin']);
+  grunt.registerTask('js', ['jshint', 'uglify']);
+  grunt.registerTask('build', ['clean:dist', 'concurrent:target1', 'concurrent:target2', 'sitemap', 'robotstxt', 'copy']);
+  grunt.registerTask('default', [
     'build',
-    'connect',
-    'open',
-    'watch'
+    //'connect',
+    //'open',
+    //'watch'
   ]);
-
-  grunt.registerTask('default', 'server');
-
-  grunt.template.today('yyyy');
 
   require('load-grunt-tasks')(grunt);
 };
