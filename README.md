@@ -1,5 +1,5 @@
 #Bootstrap Cabin Installation
-A combination of [Grunt Pages](https://github.com/CabinJS/grunt-pages) and [Twitter Bootstrap](https://github.com/twbs/bootstrap)
+A combination of [Cabin JS Grunt Pages](https://github.com/CabinJS/grunt-pages) and [Twitter Bootstrap](https://github.com/twbs/bootstrap)
 *****
 
 Open terminal, cd to your project folder and install [Grunt](http://gruntjs.com/)
