@@ -1,81 +1,80 @@
-//- Mixin for post, used on homepage and post page
-mixin postHead(post)
-  .post-head.group
-    a(href="#{data.baseUrl}#{post.url}")
-      h1.post-title= post.title
-    span.post-date!= [post.date.getUTCFullYear(), post.date.getUTCMonth() + 1, post.date.getUTCDate()].join(' &#183; ')
+include mixins.jade
 
-mixin post(post)
-  mixin postHead(post)
-  .post-body.markdown!= post.content
+-var selected = ''; //default
+-var metaDescription = ""; //- Keep between 150 and 160 characters
+-var metaKeywordsGlobal = ""; //- Global and page keywords should contain relevant keywords (max 20)
+-var websiteTitle = "Website";
+-var pageTitle = "";
 
-mixin menulink(menuitem)
-  if menuitem.link_external
-    a(href="#{menuitem.link}", title=menuitem.name, target="_blank")
-      i.fa.fa-lg.fa-fw(class="#{menuitem.icon}")
-      &nbsp;
-      = menuitem.name
-  else
-    a(href="#{data.baseUrl}#{menuitem.link}", title=menuitem.name)
-      i.fa.fa-lg.fa-fw(class="#{menuitem.icon}")
-      &nbsp;
-      = menuitem.name
+block var
 
-mixin menu(menu)
-    each item, i in menu
-      if selected === item.name
-        li.active
-          mixin menulink(item)
-      else if "dropdown" === item.link
-                li.dropdown
-                  a.dropdown-toggle(href="#" data-toggle="dropdown")
-                    i.fa.fa-cubes.fa-lg.fa-fw
-                    &nbsp;
-                    = item.name
-                    b.caret
-                  ul.dropdown-menu
-                    each subitem, j in item.items
-                      if selected === subitem.name
-                        li.active
-                          mixin menulink(subitem)
-                      else if "divider" === subitem.type
-                        li.divider
-                      else
-                        li
-                          mixin menulink(subitem)
-      else
-        li
-          mixin menulink(item)
+doctype html
+html(lang="en")
 
-block link
-  -var selected = ''; //default
-
-!!! 5
-html
   head
     meta(charset="utf-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=no")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="author" content="Oïnk BVBA")
+
+
+    //----------------------------------------------
+    //- Meta and title tags, link to sitemap important for SEO
+    //----------------------------------------------
+    meta(name="description" content=metaDescription)
+    meta(name="robots" content="index, follow")
+    meta(name="revisit-after" content="3 month")
+
+    if metaKeywordsGlobal && metaKeywordsPage
+      meta(name="keywords" content=metaKeywordsGlobal + "," + metaKeywordsPage)
+    else if metaKeywordsGlobal
+      meta(name="keywords" content=metaKeywordsGlobal)
+    else if metaKeywordsPage
+      meta(name="keywords" content=metaKeywordsPage)
+
+    //- Keep page title under 50 to 60 characters
+    if pageTitle
+      block title
+        title #{websiteTitle} - #{pageTitle}
+    else
+      block title
+        title #{websiteTitle}
+
     link(href="#{data.baseUrl}css/style.min.css", rel="stylesheet")
-    block head
-      title= "Bootstrap Cabin"
+
   body
     //if lt IE 7
       p.browsehapy
         You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    .navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+    header.navbar.navbar-default.navbar-fixed-top(role="navigation")
       .container
         .navbar-header
-          button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-collapse")
+          button(type="button" data-toggle="collapse" data-target=".navbar-collapse").navbar-toggle.collapsed
             span.sr-only Toggle navigation
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href="#{data.baseUrl}") Bootstrap Cabin
+          a(href="#{data.baseUrl}").navbar-brand Bootstrap Cabin
         .navbar-collapse.collapse
           ul.nav.navbar-nav.navbar-right
-            mixin menu(data.menu)
+            +menuItem('Home', '', 'fa-home')
+            +menuItem('About', 'about.html', 'fa-user')
+            +menuItem('Archive', 'archive.html', 'fa-archive')
+            +menuItem('Error', '404.html', 'fa-bell')
+            li.dropdown
+              a.dropdown-toggle(href="#" data-toggle="dropdown")
+                i.fa.fa-cubes.fa-lg.fa-fw
+                | &nbsp;Dropper
+                b.caret
+              ul.dropdown-menu
+                +menuItem('Link', '404.html', 'fa-bomb')
+                +menuItem('Another link', '404.html', 'fa-link')
+                +menuItem('Yet another link', '404.html', 'fa-anchor')
+                li.divider
+                +menuItem('Facebook', 'http://www.facebook.com',  'fa-facebook')
 
-    #content(class="#{selected.toLowerCase()}")
+    section#content(class="#{selected.toLowerCase()}")
       block content
 
 
@@ -83,9 +82,17 @@ html
       block footer
         .container.footer-menu: .row
           .menu.col-xs-6.col-md-4: .nav.nav-pills.nav-stacked
-            mixin menu(data.footermenu1)
+            ul
+              +menuItem('Contact', '404.html', 'fa-smile-o')
+              +menuItem('Legal', '404.html', 'fa-legal')
+              +menuItem('Archive', 'archive.html', 'fa-archive')
+            
           .menu.col-xs-6.col-md-4: .nav.nav-pills.nav-stacked
-            mixin menu(data.footermenu2)
+            ul
+              +menuItem('Nothing', 'index.html', 'fa-university')
+              +menuItem('Something', '404.html', 'fa-paperclip')
+              +menuItem('Other', '404.html', 'fa-tree')
+              +menuItem('Google', 'http://www.google.com',  'fa-google')
       .container.footer-txt: p &copy; Company #{data.year}
 
     script(src="#{data.baseUrl}js/script.min.js", type="text/javascript")

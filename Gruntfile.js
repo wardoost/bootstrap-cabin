@@ -10,13 +10,15 @@ var websiteUrl = 'www.gruntgeneratedbootstrapcabin.be';
 
 module.exports = function (grunt) {
 
+  require('time-grunt')(grunt);
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
     // HTML
     pages: {
       posts: {
-        src: 'posts',
+        src: 'src/posts',
         dest: 'dist',
         layout: 'src/layouts/post.jade',
         url: 'posts/:title/',
@@ -24,33 +26,7 @@ module.exports = function (grunt) {
           pageSrc: 'src/pages',
           data: {
             baseUrl: '/',
-            year: grunt.template.today('yyyy'),
-            menu: [
-              {name: 'Home', link: '',icon:'fa-home'},
-              {name: 'About', link: 'about.html',icon:'fa-user'},
-              {name: 'Archive', link: 'archive.html',icon:'fa-archive'},
-              {name: 'Error', link: '404.html',icon:'fa-bell'},
-              {name: 'Dropper', link: 'dropdown', icon:'fa-cubes',
-                items: [
-                  {name: 'Link', link: '404.html',icon:'fa-bomb'},
-                  {name: 'Another link', link: '404.html',icon:'fa-link'},
-                  {name: 'Yet another link', link: '404.html',icon:'fa-anchor'},
-                  {type: 'divider'},
-                  {name: 'Facebook', link: 'http://www.facebook.com', icon:'fa-facebook', link_external: true}
-                ]
-              }
-            ],
-            footermenu1: [
-              {name: 'Contact', link: '404.html',icon:'fa-smile-o'},
-              {name: 'Legal', link: '404.html',icon:'fa-legal'},
-              {name: 'Archive', link: 'archive.html',icon:'fa-archive'}
-            ],
-            footermenu2: [
-              {name: 'Nothing', link: 'index.html',icon:'fa-university'},
-              {name: 'Something', link: '404.html',icon:'fa-paperclip'},
-              {name: 'Other', link: '404.html',icon:'fa-tree'},
-              {name: 'Google', link: 'http://www.google.com', icon:'fa-google', link_external: true}
-            ]
+            year: grunt.template.today('yyyy')
           },
           pagination: {
             postsPerPage: 2,
@@ -60,7 +36,7 @@ module.exports = function (grunt) {
       }
     },
 
-    // -------------
+/*    // -------------
     // **** NEW ****
     // -------------
 
@@ -81,7 +57,7 @@ module.exports = function (grunt) {
         src: 'src/img/favicon.png',
         dest: 'dist/img/icons'
       }
-    },
+    },*/
 
     relativeRoot: {
       yourTarget: {
@@ -180,9 +156,14 @@ module.exports = function (grunt) {
     },
 
     uglify: {
+      options: {
+        compress: false,
+        beautify: true,
+        mangle: false
+      },
       js: {
         src: [
-        	'src/js/libs/jquery-1.11.0.min.js',
+        	'src/js/libs/jquery*.js',
           'src/js/libs/*.js',
           'src/js/libs/bootstrap/collapse.js', // Bootstrap JS
           'src/js/libs/bootstrap/dropdown.js', // Bootstrap JS
@@ -253,6 +234,14 @@ module.exports = function (grunt) {
       }
     },
 
+    devUpdate: {
+      main: {
+        options: {
+          updateType: 'prompt'
+        }
+      }
+    },
+
     watch: {
       options: {
         cwd: 'src',
@@ -264,7 +253,7 @@ module.exports = function (grunt) {
         'layouts/**.jade',
         'pages/**.jade'
         ],
-        tasks: ['pages', 'favicons', 'relativeRoot', 'htmlmin']
+        tasks: ['pages', 'relativeRoot', 'htmlmin']
       },
       styles: {
         files: ['less/**/*.less', 'css/**/*.css'],
@@ -287,7 +276,7 @@ module.exports = function (grunt) {
     connect: {
       dist: {
         options: {
-          hostname: '0.0.0.0',
+          hostname: '*',
           port: 8000,
           base: '',
           livereload: true
@@ -298,7 +287,8 @@ module.exports = function (grunt) {
     open: {
       dist: {
         // Gets the port from the connect configuration
-        path: 'http://localhost:<%= connect.dist.options.port%>/dist'
+        path: 'http://<%= grunt.option("ipAddress") %>:<%= connect.dist.options.port%>/dist',
+        app: 'Google Chrome'
       }
     },
 
@@ -314,17 +304,54 @@ module.exports = function (grunt) {
       target2: ['sitemap', 'robotstxt', 'copy']
     },
   });
+
+  grunt.option('projectDir', process.cwd().split("/").pop()); // Project name according to the root directory name
+
+  // Lookup and save IP address in grunt option
+  var ifaces = require('os').networkInterfaces();
+  Object.keys(ifaces).forEach(function (ifname) {
+    ifaces[ifname].forEach(function (iface) {
+      if ('IPv4' !== iface.family || iface.internal !== false) { return; } // skip over internal (i.e. 127.0.0.1) and non-ipv4 addresses
+      grunt.option('ipAddress', iface.address); // Save in Grunt option
+    });
+  });
+
+  // Display project name and ip address
+  grunt.log.subhead((" " + grunt.option("projectDir") + " (" + grunt.option("ipAddress") + ") ").green.inverse);
   
   // Group sequenced tasks
-  grunt.registerTask('html', ['pages', 'favicons', 'relativeRoot','htmlmin']);
-  grunt.registerTask('css', ['less', 'concat:css', 'cssmin']);
-  grunt.registerTask('js', ['jshint', 'uglify']);
-  grunt.registerTask('build', ['clean:dist', 'concurrent:target1', 'concurrent:target2', 'sitemap', 'robotstxt', 'copy']);
+  grunt.registerTask('html', [
+    'pages', 
+    //'favicons', 
+    'relativeRoot', 
+    'htmlmin'
+  ]);
+  grunt.registerTask('css', [
+    'less', 
+    'concat:css', 
+    'cssmin'
+  ]);
+  grunt.registerTask('js', [
+    'jshint', 
+    'uglify'
+  ]);
+  grunt.registerTask('build', [
+    'clean:dist', 
+    'concurrent:target1', 
+    'concurrent:target2', 
+    'sitemap', 
+    'robotstxt', 
+    'copy'
+  ]);
+  grunt.registerTask('server', [
+    'connect',
+    'open',
+    'watch'
+  ]);
   grunt.registerTask('default', [
+    'devUpdate',
     'build',
-    //'connect',
-    //'open',
-    //'watch'
+    'server'
   ]);
 
   require('load-grunt-tasks')(grunt);

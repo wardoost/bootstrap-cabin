@@ -65,9 +65,8 @@ captionOff = function() {
 },
 
 createFullscreenGallery = function(selector){
-  var $selector = selector;
   // Check if images have retina equivalent
-  $selector.each(function() {
+  $(selector).each(function() {
     var $obj = $(this);
 
     // Wrap image in link
@@ -117,7 +116,37 @@ getOrientation = function(img, threshold){
 /* ON PAGE LOAD */
 
 $(function() {
-    
+
+  // Pjax setup
+  var pjax = new Pjax({
+      elements: "a[href]", // default is "a[href], form[action]"
+      selectors: ["title", ".navbar-collapse", "#content"],
+      switches: {
+        "navbar-collapse": Pjax.switches.innerHTML,
+        "#content": Pjax.switches.innerHTML
+      },
+      switchesOptions: {
+        "#content": {
+          classNames: {
+            remove: "fadeOut", // class added on the element that will be removed
+            add: "fadeIn", // class added on the element that will be added
+            backward: "", // class added on the element when it go backward
+            forward: "" // class added on the element when it go forward (used for new page too)
+          }
+        }
+      }
+    });
+  $(document).on('pjax:send', function(evt){     
+
+  });
+  $(document).on('pjax:success', function(evt){
+    $(".navbar-collapse").removeClass('in');
+  });
+
+  $(document).on('pjax:error', function(evt){
+    $(".navbar-collapse").removeClass('in');
+  });
+  
   // For all markdown images in posts
   $('.post-body.markdown img').each(function() {
     // Add class to stretch images to the edges on mobile
@@ -131,8 +160,8 @@ $(function() {
     if(!$(this).has('*').length) $(this).addClass('link3D').wrapInner('<span  data-title="' + $(this).text() + '"></span>');
   });
 
-  var $selector = '.post-body.markdown img';
-  var $totalImgs = $selector.length;
+  var selector = '.post-body.markdown img';
+  var $totalImgs = $(selector).length;
   var $callback;
   var $callbackArg;
 
@@ -142,7 +171,7 @@ $(function() {
   }
 
   // Check if images have retina equivalent
-  $($selector.retina)({ selector: $selector, });
+  $(selector).retina();
 
   // Place social icons
   if($("#shb").length > 0) {

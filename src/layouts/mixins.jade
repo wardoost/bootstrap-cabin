@@ -1,0 +1,5 @@
+mixin menuItem(name, link, icon)
+  li: a(href=data.baseUrl + link, title=name)
+    i.fa.fa-lg.fa-fw(class=icon)
+    | &nbsp;
+    = name

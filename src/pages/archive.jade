@@ -1,13 +1,16 @@
 extends ../layouts/base
 
-block link
-	-var selected = 'Archive';
-block head
-	title Archives
+block var
+  -selected = 'Archive'
+  -pageTitle = 'Archives'
+
 block content
-	.container
-		h1 Archive
-		p This is an overview of all the posts titles and dates
-		.well
-			each post in posts
-				mixin postHead(post)
+  .container
+    h1 Archive
+    p This is an overview of all the posts titles and dates
+    .well
+      - each post in posts
+        .post-head.group
+          a(href="#{data.baseUrl + post.url}")
+            h1.post-title #{post.title}
+          span.post-date #{post.date.getUTCDate()}.#{post.date.getUTCMonth() + 1}.#{post.date.getUTCFullYear()}

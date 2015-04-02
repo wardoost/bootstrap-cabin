@@ -1,10 +1,15 @@
 extends base
 
-block head
-	title= post.title
-	if post.description
-		meta(name="description", content="#{post.description}")
+block var
+  - pageTitle = post.title
+  if post.description
+    - metaDescription = post.description
 block content
-	.container
-		mixin post(post)
-		include social
+  .container
+    .post-head.group
+      a(href="#{data.baseUrl + post.url}")
+        h1.post-title #{post.title}
+      span.post-date #{post.date.getUTCDate()}.#{post.date.getUTCMonth() + 1}.#{post.date.getUTCFullYear()}
+    .post-body.markdown !{post.content}
+
+    include social
